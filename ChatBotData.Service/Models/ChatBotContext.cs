@@ -18,7 +18,7 @@ namespace ChatBotData.Service.Models
         public ChatBotContext()
         {
             //Configuration = configuration;
-            Configuration = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.dev.json").Build();
+            //Configuration = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.dev.json").Build();
 
             //Connection = Configuration.GetSection("ConnectionString").Value;
 
@@ -27,7 +27,7 @@ namespace ChatBotData.Service.Models
         protected override void OnConfiguring(DbContextOptionsBuilder builder)
         {
             //builder.UseSqlServer(Connection);
-            builder.UseSqlServer(Configuration.GetSection("ConnectionString").Value);
+            //builder.UseSqlServer(Configuration.GetSection("ConnectionString").Value);
 
         }
 
