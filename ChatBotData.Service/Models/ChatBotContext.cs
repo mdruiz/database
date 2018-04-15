@@ -11,8 +11,8 @@ namespace ChatBotData.Service.Models
 {
     public class ChatBotContext : DbContext
     {
-        public  IConfiguration Configuration { get; set; }
-        //private string Connection;
+        private IConfiguration Configuration { get; set; }
+        private string Connection;
 
         public DbSet<User> User { get; set; }
 
@@ -20,16 +20,15 @@ namespace ChatBotData.Service.Models
         {
             //Configuration = configuration;
             Configuration = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsetting.dev.json").Build();
-            //Configuration = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsetting.dev.json").Build();
         
-            //Connection = Configuration.GetSection("ConnectionString").Value;
+            Connection = Configuration.GetSection("ConnectionString").Value;
 
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder builder)
         {
-            //builder.UseSqlServer(Connection);
-            builder.UseSqlServer(Configuration.GetSection("ConnectionString").Value);
+            builder.UseSqlServer(Connection);
+            //builder.UseSqlServer(Configuration.GetSection("ConnectionString").Value);
 
         }
 

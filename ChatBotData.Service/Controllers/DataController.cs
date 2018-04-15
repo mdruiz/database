@@ -14,14 +14,7 @@ namespace ChatBotData.Service.Controllers
     [Route("api/[controller]")]
     public class DataController : Controller
     {
-        private DataReader dataReader { get; set; } = new DataReader();
-
-        //// GET: api/values
-        //[HttpGet]
-        //public IEnumerable<string> Get()
-        //{
-        //    return new string[] { "value1", "value2" };
-        //}
+        private DataReader dataReader = new DataReader();
 
         // GET api/data
         [HttpGet]
