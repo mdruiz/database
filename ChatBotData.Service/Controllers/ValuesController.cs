@@ -14,7 +14,6 @@ namespace ChatBotData.Service.Controllers
     public class ValuesController : Controller
     {
         
-
         // GET: api/values
         [HttpGet]
         public IEnumerable<string> Get()
