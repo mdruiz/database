@@ -29,7 +29,7 @@ namespace ChatBotData.Service.Models
         protected override void OnConfiguring(DbContextOptionsBuilder builder)
         {
             //builder.UseSqlServer(Connection);
-            //builder.UseSqlServer(Configuration.GetSection("ConnectionString").Value);
+            builder.UseSqlServer(Configuration.GetSection("ConnectionString").Value);
 
         }
 
