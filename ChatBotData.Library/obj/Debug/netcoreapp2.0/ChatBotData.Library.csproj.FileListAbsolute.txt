@@ -1,0 +1,9 @@
+C:\Revature\ChatBot\ChatBotData\ChatBotData.Library\bin\Debug\netcoreapp2.0\ChatBotData.Library.deps.json
+C:\Revature\ChatBot\ChatBotData\ChatBotData.Library\bin\Debug\netcoreapp2.0\ChatBotData.Library.dll
+C:\Revature\ChatBot\ChatBotData\ChatBotData.Library\obj\Debug\netcoreapp2.0\ChatBotData.Library.csprojResolveAssemblyReference.cache
+C:\Revature\ChatBot\ChatBotData\ChatBotData.Library\obj\Debug\netcoreapp2.0\ChatBotData.Library.csproj.CoreCompileInputs.cache
+C:\Revature\ChatBot\ChatBotData\ChatBotData.Library\obj\Debug\netcoreapp2.0\ChatBotData.Library.AssemblyInfoInputs.cache
+C:\Revature\ChatBot\ChatBotData\ChatBotData.Library\obj\Debug\netcoreapp2.0\ChatBotData.Library.AssemblyInfo.cs
+C:\Revature\ChatBot\ChatBotData\ChatBotData.Library\bin\Debug\netcoreapp2.0\ChatBotData.Library.pdb
+C:\Revature\ChatBot\ChatBotData\ChatBotData.Library\obj\Debug\netcoreapp2.0\ChatBotData.Library.dll
+C:\Revature\ChatBot\ChatBotData\ChatBotData.Library\obj\Debug\netcoreapp2.0\ChatBotData.Library.pdb
